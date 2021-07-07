@@ -1,0 +1,2056 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-07T09:14:08.181Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4633570500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Create warrior and proceed to the game",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;create-warrior-and-proceed-to-the-game;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 708860000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14186047100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I create warrior \"HandWasher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HandWasher",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37251100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the welcome message",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_welcome_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:14:27.865Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3272155000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Create warrior and proceed to the game",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;create-warrior-and-proceed-to-the-game;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 741965200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7273385500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I create warrior \"Sanitizer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanitizer",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34228100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the welcome message",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_welcome_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:14:39.193Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3285840500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Select a correct answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-a-correct-answer-and-verify-the-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 734570400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14376830800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I create warrior \"HandWasher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HandWasher",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1370060800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I go to page \"Are you game?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Are you game?",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49406800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify \"You are in a battlefield...\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You are in a battlefield...",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2234787500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2232642800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select the correct answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_select_the_correct_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50495300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify \"That is correct!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That is correct!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:15:03.539Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3769439200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Select a correct answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-a-correct-answer-and-verify-the-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 729902400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6792963000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I create warrior \"HandWasher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HandWasher",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2266396300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I go to page \"Bus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bus",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40310700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify \"You have taken the public bus..\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You have taken the public bus..",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2226697600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2035223100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select the correct answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_select_the_correct_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51684100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify \"That is correct!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That is correct!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:15:21.457Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3773066100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Select a correct answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-a-correct-answer-and-verify-the-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 817858200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7950264000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I create warrior \"HandWasher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HandWasher",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4836955900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I go to page \"Restaurant\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Restaurant",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45223600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify \"You are seated at a restaurant..\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You are seated at a restaurant..",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2230290100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2044973400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select the correct answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_select_the_correct_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45198300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify \"That is correct!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That is correct!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:15:43.208Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3273979500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Select a correct answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-a-correct-answer-and-verify-the-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 722491100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6807397400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I create warrior \"HandWasher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HandWasher",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2476811100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I go to page \"Office\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Office",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36973700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify \"You have entered the office..\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You have entered the office..",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2231439200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2024532600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select the correct answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_select_the_correct_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50242900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify \"That is correct!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That is correct!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:16:00.837Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3278894000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Select an incorrect answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-an-incorrect-answer-and-verify-the-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 705142500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6655743700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I create warrior \"HandWasher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HandWasher",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1779186600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I go to page \"Are you game?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Are you game?",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2225260600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2226258900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select the incorrect answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_incorrect_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Expected message: That doesn\u0027t sound right! but got: Oh no!\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(GameStepDefinitions.java:242)\r\n\tat ✽.I verify \"That doesn\u0027t sound right!\" message is displayed(file:///C:/Users/chris/eclipse-workspace/responsivefight/./src/test/java/features/GameTestFireFox.feature:35)\r\n",
+              "duration": 67728900,
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "I verify \"That doesn\u0027t sound right!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That doesn\u0027t sound right!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:16:17.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3251369400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Select an incorrect answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-an-incorrect-answer-and-verify-the-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 750677900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7680586700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I create warrior \"HandWasher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HandWasher",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2004123500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I go to page \"Bus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bus",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2236441500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2040461600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select the incorrect answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_incorrect_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79519600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify \"That doesn\u0027t sound right!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That doesn\u0027t sound right!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:16:35.835Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3240489000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Select an incorrect answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-an-incorrect-answer-and-verify-the-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 687210800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7400755300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I create warrior \"HandWasher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HandWasher",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2439866000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I go to page \"Restaurant\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Restaurant",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2229643300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2029980600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select the incorrect answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_incorrect_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69195700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify \"That doesn\u0027t sound right!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That doesn\u0027t sound right!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:16:53.938Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2755099400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Select an incorrect answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-an-incorrect-answer-and-verify-the-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 734106400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11486730700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I create warrior \"HandWasher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HandWasher",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4985332700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I go to page \"Office\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Office",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2238790900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2028532400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select the incorrect answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_incorrect_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74995400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify \"That doesn\u0027t sound right!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That doesn\u0027t sound right!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:17:18.246Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3252360100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Do not select an answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;do-not-select-an-answer-and-verify-the-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 731100400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11776753700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I create warrior \"Sanitizer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanitizer",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1490286000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I go to page \"Are you game?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Are you game?",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2221699400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30002291600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I wait for timer to time out",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_wait_for_timer_to_time_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Expected message: Time\u0027s Up! but got: Oh no!\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(GameStepDefinitions.java:242)\r\n\tat ✽.I verify \"Time\u0027s Up!\" message is displayed(file:///C:/Users/chris/eclipse-workspace/responsivefight/./src/test/java/features/GameTestFireFox.feature:50)\r\n",
+              "duration": 66648500,
+              "status": "failed"
+            },
+            "line": 50,
+            "name": "I verify \"Time\u0027s Up!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Time\u0027s Up!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:18:07.792Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3248776800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Do not select an answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;do-not-select-an-answer-and-verify-the-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 716798700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6656411700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I create warrior \"Sanitizer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanitizer",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2018349600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I go to page \"Bus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bus",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2219250100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000702200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I wait for timer to time out",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_wait_for_timer_to_time_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88749900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I verify \"Time\u0027s Up!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Time\u0027s Up!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:18:52.743Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3266840600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Do not select an answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;do-not-select-an-answer-and-verify-the-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 855243100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6634930500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I create warrior \"Sanitizer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanitizer",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2035404100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I go to page \"Restaurant\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Restaurant",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2223457200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000388400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I wait for timer to time out",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_wait_for_timer_to_time_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84245900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I verify \"Time\u0027s Up!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Time\u0027s Up!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:19:37.849Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3311277500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Do not select an answer and verify the page",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;do-not-select-an-answer-and-verify-the-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 689107900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6936559000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I create warrior \"Sanitizer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanitizer",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2675752900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I go to page \"Office\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Office",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2221018700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000756600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I wait for timer to time out",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_wait_for_timer_to_time_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70696500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I verify \"Time\u0027s Up!\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Time\u0027s Up!",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_verify_message_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:20:23.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3262308700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "Select a correct answer and check score on leaderboard",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-a-correct-answer-and-check-score-on-leaderboard;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 679062600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12148310300,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I create warrior \"SocialDistance\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SocialDistance",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1523734500,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I go to page \"Are you game?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Are you game?",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2240437900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2224334100,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I select the correct answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_select_the_correct_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Could not navigate to the leaderboard Are you game?\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat stepdefinitions.GameStepDefinitions.i_go_to_the_leaderboard_and_verify_score(GameStepDefinitions.java:204)\r\n\tat ✽.I get my score and verify the leaderboard(file:///C:/Users/chris/eclipse-workspace/responsivefight/./src/test/java/features/GameTestFireFox.feature:65)\r\n",
+              "duration": 1275800,
+              "status": "failed"
+            },
+            "line": 65,
+            "name": "I get my score and verify the leaderboard",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_the_leaderboard_and_verify_score()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:20:45.841Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3255417600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "Select a correct answer and check score on leaderboard",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-a-correct-answer-and-check-score-on-leaderboard;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 711734100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10622949600,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I create warrior \"SocialDistance\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SocialDistance",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2051324300,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I go to page \"Bus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bus",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2227274100,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2034714000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I select the correct answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_select_the_correct_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2332537300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I get my score and verify the leaderboard",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_the_leaderboard_and_verify_score()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:21:09.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3244266600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "Select a correct answer and check score on leaderboard",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-a-correct-answer-and-check-score-on-leaderboard;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 698352700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7265223400,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I create warrior \"SocialDistance\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SocialDistance",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1762052700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I go to page \"Restaurant\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Restaurant",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2218502500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2028158300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I select the correct answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_select_the_correct_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2431344600,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I get my score and verify the leaderboard",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_the_leaderboard_and_verify_score()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-07T09:21:28.734Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3248076000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_open_firefox()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "Select a correct answer and check score on leaderboard",
+        "description": "",
+        "id": "test-covid-19-the-game-on-firefox;select-a-correct-answer-and-check-score-on-leaderboard;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 650058500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11312768100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I create warrior \"SocialDistance\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SocialDistance",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_create_warrior(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6400396700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I go to page \"Office\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Office",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2228259600,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click the start button",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_click_the_start_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2025831400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I select the correct answer",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_select_the_correct_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2753135100,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I get my score and verify the leaderboard",
+            "match": {
+              "location": "stepdefinitions.GameStepDefinitions.i_go_to_the_leaderboard_and_verify_score()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Firefox"
+          }
+        ]
+      }
+    ],
+    "name": "Test COVID-19 the Game on Firefox",
+    "description": "",
+    "id": "test-covid-19-the-game-on-firefox",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GameTestFireFox.feature",
+    "tags": []
+  }
+]
